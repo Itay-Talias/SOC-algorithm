@@ -8,7 +8,10 @@ packages = [{include = "soc_algorithm"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-
+pydantic = "*"
+pandas = "*"
+xlrd = "*"
+openpyxl = "*"
 
 [build-system]
 requires = ["poetry-core"]
