@@ -8,4 +8,5 @@ class NetworkLine(BaseModel):
     source_port: int
     destination_port: int
     body: str
+    volume: float
 

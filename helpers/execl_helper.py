@@ -17,7 +17,8 @@ def read_excel_to_network_lines(file_path: str) -> List[NetworkLine]:
             destination_ip=row['destination_ip'],
             source_port=row['source_port'],
             destination_port=row['destination_port'],
-            body=row['body']
+            body=row['body'],
+            volume=row['volume']
         )
         network_lines.append(network_line)
 
