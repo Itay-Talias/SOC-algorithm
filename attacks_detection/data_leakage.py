@@ -16,7 +16,8 @@ def map_volume_network(network_lines: List[NetworkLine]) -> DataLeakageResults:
 
     return data_Leakage_results
 
-def detect_ports_scan(network_lines: List[NetworkLine]) -> DataLeakageResults:
+
+def detect_data_leakage(network_lines: List[NetworkLine]) -> DataLeakageResults:
     data_leakage_results: DataLeakageResults = map_volume_network(network_lines)
 
     filtered_dangerous_ips = {
